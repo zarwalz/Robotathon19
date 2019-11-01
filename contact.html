@@ -55,7 +55,7 @@
     
         <!-- End Map -->
         <div class="contact-box">
-          <form id="contact-form" method="post" action="contact-form.php">
+          <form id="contact-form" method="post" action="http://formspree.io/zarwal.zineb@gmail.com">
               <h1>Send us a Message</h1>
               <div class="dark">
                 <div class="text-fields column4">
@@ -64,7 +64,7 @@
                     <span><i class="fa fa-user"></i></span>
                   </div>
                   <div class="float-input">
-                    <input name="mail" id="mail" type="text" placeholder="e-mail" required>
+                    <input name="_replyto" id="mail" type="text" placeholder="e-mail" required>
                     <span><i class="fa fa-envelope-o"></i></span>
                   </div>
                   
@@ -72,7 +72,7 @@
 
                 <div class="submit-area column8">
                   <textarea name="comment" id="comment" placeholder="Message" required></textarea>
-                  <a href="http://formspree.io/zarwal.zineb@gmail.com"><input type="submit" id="submit_contact" class="main-button" value="Send Now"></a>
+                  <input type="submit" id="submit_contact" class="main-button" value="Send Now">
                   <div id="msg" class="message"></div>
                 </div>
               </div>
