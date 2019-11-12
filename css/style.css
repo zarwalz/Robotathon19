@@ -1144,44 +1144,71 @@ margin-bottom: 30px;
   position:absolute;    
 }
 
-.graphic-design {
-  width:100%; 
-  -moz-animation:graphic-design 2s ease-out;
-  -webkit-animation:graphic-design 2s ease-out;
+.one {
+  width:0%; 
+  -moz-animation:one 2s ease-out;
+  -webkit-animation:one 2s ease-out;
   background-color: #fff;
 }
 
-.html-css {
-  width:90%;
+.two {
+  width:20%;
   -moz-animation:html-css 2s ease-out;
   -webkit-animation:html-css 2s ease-out;
   background-color: #fff;
 
 }
 
-.jquery {
+.three {
   width:65%;
   -moz-animation:jquery 2s ease-out;
   -webkit-animation:jquery 2s ease-out;
   background-color: #fff;
 }
 
-.wordpress {
+.four {
   width:80%;
   -moz-animation:wordpress 2s ease-out;
   -webkit-animation:wordpress 2s ease-out;
   background-color: #fff; 
 }
 
-@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
-@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+.five {
+  width:80%;
+  -moz-animation:wordpress 2s ease-out;
+  -webkit-animation:wordpress 2s ease-out;
+  background-color: #fff; 
+}
 
-@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
-@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+.six {
+  width:80%;
+  -moz-animation:wordpress 2s ease-out;
+  -webkit-animation:wordpress 2s ease-out;
+  background-color: #fff; 
+}
+
+.seven {
+  width:80%;
+  -moz-animation:wordpress 2s ease-out;
+  -webkit-animation:wordpress 2s ease-out;
+  background-color: #fff; 
+}
+
+@-moz-keyframes one {0%  { width:0px;} 0%{ width:0%;}  }
+@-moz-keyframes two        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes three      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes four   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes five   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes six   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes seven   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+@-webkit-keyframes one       { 0%  { width:0px;} 0%{ width:0%;}  }
+@-webkit-keyframes two        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes three      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes four   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes five   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes six   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes seven   { 0%  { width:0px;} 100%{ width:80%;}  }
 
 /**************end skill performance*********/
 
