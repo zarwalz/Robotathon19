@@ -19,6 +19,9 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+
+
+
 /*Cahsi update 3-6-2023*/
 .slide-cahsi{
   width:250px;
@@ -404,7 +407,18 @@ header{
 .logo{
     float: left;
     padding-top: 25px;
+    align-items: center;
+    padding-left: 1em
+    ;
+    
 }
+
+.imageLogo{
+  width: 100px;
+  height: 100px;
+}
+
+
 
 
 .me{
