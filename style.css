@@ -137,12 +137,12 @@ html, body {
     margin:0;
 }
 .h_iframe iframe {
-    width:30%;
-    height:25%;
+    height:100%;
+    width:100%;
 }
 .h_iframe {
-    width:30%;
-    height:25%;
+    height:100%;
+    width:100%;
 }
 
 /*-------------------------------------------------*/
